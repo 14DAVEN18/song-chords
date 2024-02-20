@@ -1,0 +1,12 @@
+menu {
+    height: 5%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.content {
+    background-color: rgb(216, 249, 203);
+    height: 95%;
+    width: 100%;
+}

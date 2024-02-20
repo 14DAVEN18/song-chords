@@ -1,0 +1,31 @@
+.chords-content {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+}
+
+
+
+/* Styles for songs list*/
+.list {
+    background-color: rgb(229, 213, 213);
+    border: 0.5px solid black;
+    display: flex;
+    height: 98%;
+    margin-left: 0.5%;
+    width: 29.5%;
+}
+
+
+
+/* Styles for songs chords*/
+.chords {
+    background-color: rgb(245, 134, 134);
+    border: 0.5px solid black;
+    display: flex;
+    height: 98%;
+    margin: 0 0.5%;
+    width: 69%;
+}
