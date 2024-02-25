@@ -1,3 +1,33 @@
-<div>
-    Una lista
+<div class="list-content">
+    <div class="title">
+        <h2>Canciones</h2>
+    </div>
+    
+    @if(this.songs) {
+        <div class="songs">
+            <ul>
+                @for (song of songs; track song.id) {
+                    <li [class.active]="songSelected && selectedSongId === song.id" (click)="selectSong(song.id)">
+                        <span>{{song.name}}</span>
+                    </li>
+                }
+            </ul>
+        </div>
+    }
+    @else {
+        <div class="songs">
+            <ul>
+                <li>
+                    <span>No hay canciones registradas</span>
+                </li>
+            </ul>
+        </div>
+    }
+    
+
+    <div class="actions">
+        <button class="action-button" title="Agregar canción" (click)="openModal()">+</button>
+    </div>
+    <song-modal [showModal]="showModal" (closeModalEvent)="hideModal()" (songInsertedEvent)="getSongs()"></song-modal>
 </div>
+

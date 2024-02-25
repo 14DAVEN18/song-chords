@@ -1,0 +1,12 @@
+[
+    { "id": 1, "song_id": 1, "name": "Intro" },
+    { "id": 2, "song_id": 1, "name": "Estrofa" },
+    { "id": 3, "song_id": 1, "name": "Coro" },
+    { "id": 4, "song_id": 1, "name": "Outro" },
+    { "id": 5, "song_id": 2, "name": "Intro" },
+    { "id": 6, "song_id": 2, "name": "Estrofa" },
+    { "id": 7, "song_id": 2, "name": "Coro" },
+    { "id": 8, "song_id": 2, "name": "Solo" },
+    { "id": 9, "song_id": 2, "name": "Coro final"},
+    { "id": 10, "song_id": 2, "name": "Outro"}
+]

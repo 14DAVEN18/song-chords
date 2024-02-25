@@ -1,3 +1,23 @@
-<div>
-    Unos acordes
+<div class="song-content">
+    <div class="title">
+        @if(this.songId !== undefined) {
+            <h2>{{song?.name}}</h2>
+            <p><span>Autor: </span>{{song?.author}}</p>
+        }
+        @else {
+            <h2>No se ha seleccionado ninguna canción</h2>
+        }
+    </div>
+    
+    <div class="chords">
+        @for(part of parts; track this.part.id) {
+            <div class="part">
+                <p><span>{{part.name}}</span></p>
+            </div>
+        }
+    </div>
+
+    <div class="actions">
+        <button class="action-button" title="Agregar canción">+</button>
+    </div>
 </div>

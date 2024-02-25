@@ -12,10 +12,15 @@
 .list {
     background-color: rgb(229, 213, 213);
     border: 0.5px solid black;
+    border-radius: 10px;
     display: flex;
     height: 98%;
     margin-left: 0.5%;
-    width: 29.5%;
+    width: 39.5%;
+}
+
+songs-list, view-chords {
+    width: 100%;
 }
 
 
@@ -24,8 +29,9 @@
 .chords {
     background-color: rgb(245, 134, 134);
     border: 0.5px solid black;
+    border-radius: 10px;
     display: flex;
     height: 98%;
     margin: 0 0.5%;
-    width: 69%;
+    width: 59%;
 }

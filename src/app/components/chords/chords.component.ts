@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 
 /* My components */
 import { SongsListComponent } from '../songs-list/songs-list.component';

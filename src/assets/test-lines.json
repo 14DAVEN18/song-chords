@@ -1,0 +1,15 @@
+[
+    { "id": 1, "part_id": 1, "content": "|C F|C|" },
+    { "id": 2, "part_id": 1, "content": "|C F|G|" },
+    { "id": 3, "part_id": 1, "content": "|C F|C F|" },
+    { "id": 4, "part_id": 1, "content": "|C F-G|C|" },
+    { "id": 5, "part_id": 2, "content": "|C F|C|" },
+    { "id": 6, "part_id": 2, "content": "|C F|G|" },
+    { "id": 7, "part_id": 2, "content": "|C F|C F|" },
+    { "id": 8, "part_id": 2, "content": "|C F-G|C (C7)|" },
+    { "id": 9, "part_id": 3, "content": "|F G|Am|" },
+    { "id": 10, "part_id": 3, "content": "|F G|Em Am|" },
+    { "id": 11, "part_id": 3, "content": "|F G|C (C7)|" },
+    { "id": 12, "part_id": 4, "content": "|F G|Am|" },
+    { "id": 13, "part_id": 4, "content": "|F G|C|" }
+]

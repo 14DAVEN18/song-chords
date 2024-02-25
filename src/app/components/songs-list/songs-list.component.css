@@ -1,0 +1,97 @@
+.list-content {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+
+
+/* Styles for the list */
+.title {
+    height: 4%;
+    width: 100%;
+}
+h2 {
+    border-bottom: 1px solid black;
+    margin: 0;
+    text-align: center;
+    width: 100%;
+}
+
+.songs {
+    width: 100%;
+    height: 91%;
+    overflow-y: scroll;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.3em;
+    margin: 1% 0 0 1%;
+    padding: 0;
+    list-style-type: none;
+    width: 98%;
+}
+/* Styles for items */
+
+
+li {
+    border-bottom: 1px solid rgb(251, 187, 70)
+}
+
+li:hover {
+    background-color: rgb(251, 187, 70);
+    cursor: pointer;
+}
+.active {
+    background-color: rgb(251, 187, 70);
+}
+
+span {
+    font-weight: bold;
+}
+
+
+
+/* Styles for action button */
+
+.actions {
+    display: flex;
+    border-top: 1px solid black;
+    height: 5%;
+    width: 100%;
+}
+
+.action-button {
+    align-self: center;
+    background-color: rgb(140, 111, 3);
+    border: none;
+    border-radius: 5px;
+    font-family: Copperplate, Fantasy;
+    font-size: 2em;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0;
+    width: 60px;
+}
+
+.action-button:hover {
+    background-color: rgb(255, 200, 0);
+    cursor: pointer;
+}
+
+/* Styles for scroll bar */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: rgb(255, 200, 0);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgb(0, 70, 0);
+    border-radius: 4px;
+}

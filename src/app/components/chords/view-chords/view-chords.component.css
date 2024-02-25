@@ -1,0 +1,86 @@
+.song-content {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+
+
+/* Styles for the panel of chords */
+.title {
+    border-bottom: 1px solid black;
+    height: 6%;
+    width: 100%;
+}
+h2 {
+    
+    margin: 0;
+    text-align: center;
+    width: 100%;
+}
+.title p {
+    margin: 0 1%;
+}
+
+.chords {
+    /*font-family: "Times New Roman", Georgia, Serif;*/
+    font-family: "American Typewriter", serif;
+    font-size: 2em;
+    height: 89%;
+    padding: 0 1.5%;
+    overflow-y: scroll;
+    width: 97%;
+}
+.chords p {
+    margin: 0
+}
+.chords .part {
+    margin: 0 0 1% 0;
+    width: 100%;
+}
+span {
+    font-weight: bold;
+}
+
+
+/* Styles for action button */
+
+.actions {
+    display: flex;
+    border-top: 1px solid black;
+    height: 5%;
+    width: 100%;
+}
+
+.action-button {
+    align-self: center;
+    background-color: rgb(140, 111, 3);
+    border: none;
+    border-radius: 5px;
+    font-family: Copperplate, Fantasy;
+    font-size: 2em;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0;
+    width: 60px;
+}
+
+.action-button:hover {
+    background-color: rgb(255, 200, 0);
+    cursor: pointer;
+}
+
+/* Styles for scroll bar */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: rgb(255, 200, 0);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgb(0, 70, 0);
+    border-radius: 4px;
+}

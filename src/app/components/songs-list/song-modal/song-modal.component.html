@@ -1,0 +1,28 @@
+@if (showModal) {
+  <div class="modal">
+    <div class="modal-content">
+      <div class="title">
+        <h2>Agregar una canción</h2>
+      </div>
+
+      <div class="modal-body">
+        <form [formGroup]="songForm">
+          <div class="form-item">
+            <label for="name">Nombre</label>
+            <input type="text" id="name" name="name" placeholder="Nombre de la canción" formControlName="name" autocomplete="off" required>
+          </div>
+          <div class="form-item">
+            <label for="author">Autor</label>
+            <input type="text" id="author" name="author" placeholder="Nombre del autor" formControlName="author" autocomplete="off" equired>
+          </div>
+        </form>
+        <div>Nota: El campo de autor se puede dejar vacio.</div>
+      </div>
+      
+      <div class="actions">
+        <button type="submit" class="button cancel" (click)="hideModal()">Cancelar</button>
+        <button type="submit" class="button create" (click)="insertSong()" [disabled]="!songForm.valid">Crear</button>
+      </div>
+    </div>
+  </div>
+}
